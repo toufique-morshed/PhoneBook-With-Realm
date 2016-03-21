@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F683A2201CA017550013B670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F683A21F1CA017550013B670 /* AppDelegate.swift */; };
+		F683A2221CA017550013B670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F683A2211CA017550013B670 /* ViewController.swift */; };
+		F683A2251CA017550013B670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F683A2231CA017550013B670 /* Main.storyboard */; };
+		F683A2271CA017550013B670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F683A2261CA017550013B670 /* Assets.xcassets */; };
+		F683A22A1CA017550013B670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F683A2281CA017550013B670 /* LaunchScreen.storyboard */; };
+		F683A2331CA017710013B670 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F683A2311CA017710013B670 /* RealmSwift.framework */; };
+		F683A2341CA017710013B670 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F683A2311CA017710013B670 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F683A2351CA017710013B670 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F683A2321CA017710013B670 /* Realm.framework */; };
+		F683A2361CA017710013B670 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F683A2321CA017710013B670 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F683A23A1CA01B010013B670 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F683A2391CA01B010013B670 /* EntryViewController.swift */; };
+		F683A23C1CA01B800013B670 /* ContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F683A23B1CA01B800013B670 /* ContactItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F683A2371CA017720013B670 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F683A2361CA017710013B670 /* Realm.framework in Embed Frameworks */,
+				F683A2341CA017710013B670 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F683A21C1CA017550013B670 /* PhoneBookRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBookRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F683A21F1CA017550013B670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F683A2211CA017550013B670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F683A2241CA017550013B670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F683A2261CA017550013B670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F683A2291CA017550013B670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F683A22B1CA017550013B670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F683A2311CA017710013B670 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		F683A2321CA017710013B670 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		F683A2391CA01B010013B670 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryViewController.swift; path = ../EntryViewController.swift; sourceTree = "<group>"; };
+		F683A23B1CA01B800013B670 /* ContactItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F683A2191CA017550013B670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F683A2351CA017710013B670 /* Realm.framework in Frameworks */,
+				F683A2331CA017710013B670 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F683A2131CA017550013B670 = {
+			isa = PBXGroup;
+			children = (
+				F683A2311CA017710013B670 /* RealmSwift.framework */,
+				F683A2321CA017710013B670 /* Realm.framework */,
+				F683A21E1CA017550013B670 /* PhoneBookRealm */,
+				F683A21D1CA017550013B670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F683A21D1CA017550013B670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F683A21C1CA017550013B670 /* PhoneBookRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F683A21E1CA017550013B670 /* PhoneBookRealm */ = {
+			isa = PBXGroup;
+			children = (
+				F683A21F1CA017550013B670 /* AppDelegate.swift */,
+				F683A2211CA017550013B670 /* ViewController.swift */,
+				F683A2391CA01B010013B670 /* EntryViewController.swift */,
+				F683A2231CA017550013B670 /* Main.storyboard */,
+				F683A2261CA017550013B670 /* Assets.xcassets */,
+				F683A2281CA017550013B670 /* LaunchScreen.storyboard */,
+				F683A22B1CA017550013B670 /* Info.plist */,
+				F683A23B1CA01B800013B670 /* ContactItem.swift */,
+			);
+			path = PhoneBookRealm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F683A21B1CA017550013B670 /* PhoneBookRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F683A22E1CA017550013B670 /* Build configuration list for PBXNativeTarget "PhoneBookRealm" */;
+			buildPhases = (
+				F683A2181CA017550013B670 /* Sources */,
+				F683A2191CA017550013B670 /* Frameworks */,
+				F683A21A1CA017550013B670 /* Resources */,
+				F683A2371CA017720013B670 /* Embed Frameworks */,
+				F683A2381CA017900013B670 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneBookRealm;
+			productName = PhoneBookRealm;
+			productReference = F683A21C1CA017550013B670 /* PhoneBookRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F683A2141CA017550013B670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sekai Lab BD";
+				TargetAttributes = {
+					F683A21B1CA017550013B670 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F683A2171CA017550013B670 /* Build configuration list for PBXProject "PhoneBookRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F683A2131CA017550013B670;
+			productRefGroup = F683A21D1CA017550013B670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F683A21B1CA017550013B670 /* PhoneBookRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F683A21A1CA017550013B670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F683A22A1CA017550013B670 /* LaunchScreen.storyboard in Resources */,
+				F683A2271CA017550013B670 /* Assets.xcassets in Resources */,
+				F683A2251CA017550013B670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F683A2381CA017900013B670 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F683A2181CA017550013B670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F683A2221CA017550013B670 /* ViewController.swift in Sources */,
+				F683A2201CA017550013B670 /* AppDelegate.swift in Sources */,
+				F683A23A1CA01B010013B670 /* EntryViewController.swift in Sources */,
+				F683A23C1CA01B800013B670 /* ContactItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F683A2231CA017550013B670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F683A2241CA017550013B670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F683A2281CA017550013B670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F683A2291CA017550013B670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F683A22C1CA017550013B670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F683A22D1CA017550013B670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F683A22F1CA017550013B670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PhoneBookRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.sekai.PhoneBookRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F683A2301CA017550013B670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PhoneBookRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.sekai.PhoneBookRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F683A2171CA017550013B670 /* Build configuration list for PBXProject "PhoneBookRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F683A22C1CA017550013B670 /* Debug */,
+				F683A22D1CA017550013B670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F683A22E1CA017550013B670 /* Build configuration list for PBXNativeTarget "PhoneBookRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F683A22F1CA017550013B670 /* Debug */,
+				F683A2301CA017550013B670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F683A2141CA017550013B670 /* Project object */;
+}
